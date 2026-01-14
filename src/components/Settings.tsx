@@ -112,12 +112,15 @@ const Settings = () => {
 
   return (
     <>
-      {screen.startsWith('game') ? (
+      {screen.startsWith("game") ? (
         <Game />
       ) : isLoading ? (
         <Loading />
       ) : (
-        <StyledBackgroundContiner className="background--scroll" background={'blue'}>
+        <StyledBackgroundContiner
+          className="background--scroll"
+          background={"blue"}
+        >
           <StyledContainer>
             <Header title="New Game" />
             <StyledSettings>
@@ -146,7 +149,13 @@ const Settings = () => {
                     <Button handleClick={addTeam} width="50%" color="blue">
                       Add
                     </Button>
-                    <Button className="button--reverse" handleClick={removeTeam} width="50%" color="blue" disabled={settings.teams.length <= 2 ? true : false}>
+                    <Button
+                      className="button--reverse"
+                      handleClick={removeTeam}
+                      width="50%"
+                      color="blue"
+                      disabled={settings.teams.length <= 2 ? true : false}
+                    >
                       Remove
                     </Button>
                   </div>
@@ -187,7 +196,9 @@ const Settings = () => {
                 </div>
                 <div className="settings__group">
                   <div className="input__container--split">
-                    <label className="all-caps" htmlFor="cardType">Cards</label>
+                    <label className="all-caps" htmlFor="cardType">
+                      Cards
+                    </label>
                     <select
                       id="cardType"
                       name="cardType"
@@ -195,11 +206,12 @@ const Settings = () => {
                       onChange={(e) => setASetting(settings, setSettings, e)}
                     >
                       <option value="base">Base Game</option>
+                      <option value="base_hr">Croatian</option>
                       <option value="generate">Generated</option>
                       <option value="written">Written</option>
                     </select>
                   </div>
-                  {settings.cardType === 'written' && (
+                  {settings.cardType === "written" && (
                     <textarea
                       id="cardText"
                       name="cardText"
@@ -208,18 +220,23 @@ const Settings = () => {
                       onBlur={(e) =>
                         !settings.cardText.trim()
                           ? setSettings({
-                            ...settings,
-                            [e.target.name]: defaultSettings.cardText,
-                          })
+                              ...settings,
+                              [e.target.name]: defaultSettings.cardText,
+                            })
                           : setSettings({
-                            ...settings,
-                            [e.target.name]: e.target.value.trim(),
-                          })
+                              ...settings,
+                              [e.target.name]: e.target.value.trim(),
+                            })
                       }
-                      onFocus={(e) => settings.cardText === defaultSettings.cardText && setSettings({ ...settings, [e.target.name]: '' })}
+                      onFocus={(e) =>
+                        settings.cardText === defaultSettings.cardText &&
+                        setSettings({ ...settings, [e.target.name]: "" })
+                      }
                     />
                   )}
-                  {(settings.cardType === 'generate' || settings.cardType === 'base') && (
+                  {(settings.cardType === "generate" ||
+                    settings.cardType === "base" ||
+                    settings.cardType === "base_hr") && (
                     <div className="settings__drafting">
                       <div className="input__container--split">
                         <label className="all-caps" htmlFor="cardCount">
@@ -233,7 +250,9 @@ const Settings = () => {
                           min="1"
                           max={wikiData?.length}
                           value={settings.cardCount}
-                          onChange={(e) => setASetting(settings, setSettings, e)}
+                          onChange={(e) =>
+                            setASetting(settings, setSettings, e)
+                          }
                           onBlur={(e) => checkNumber(settings, setSettings, e)}
                         />
                       </div>
@@ -245,7 +264,9 @@ const Settings = () => {
                           id="isDrafting"
                           name="isDrafting"
                           type="checkbox"
-                          onChange={(e) => setASetting(settings, setSettings, e)}
+                          onChange={(e) =>
+                            setASetting(settings, setSettings, e)
+                          }
                           checked={settings.isDrafting}
                         />
                       </div>
@@ -262,21 +283,35 @@ const Settings = () => {
                             min="4"
                             max="16"
                             value={settings.playerCount}
-                            onChange={(e) => setASetting(settings, setSettings, e)}
-                            onBlur={(e) => checkNumber(settings, setSettings, e)}
+                            onChange={(e) =>
+                              setASetting(settings, setSettings, e)
+                            }
+                            onBlur={(e) =>
+                              checkNumber(settings, setSettings, e)
+                            }
                           />
                         </div>
                       )}
                       {settings.isDrafting && !isDraftingValid() && (
                         <div className="error-message">
-                          Card count must be divisible by number of players. Each player should contribute {Math.floor(settings.cardCount / settings.playerCount)} cards.
+                          Card count must be divisible by number of players.
+                          Each player should contribute{" "}
+                          {Math.floor(
+                            settings.cardCount / settings.playerCount
+                          )}{" "}
+                          cards.
                         </div>
                       )}
                     </div>
                   )}
                 </div>
 
-                <Button handleClick={startGame} color="blue" type="submit" disabled={!isDraftingValid()}>
+                <Button
+                  handleClick={startGame}
+                  color="blue"
+                  type="submit"
+                  disabled={!isDraftingValid()}
+                >
                   Start Game
                 </Button>
               </form>

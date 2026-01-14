@@ -28,6 +28,9 @@ const Game = () => {
   const [remainingTime, setRemainingTime] = useState<number>(getStateFromLocalStorgage(settings.timer, 'remainingTime'));
   const [color, setColor] = useState<string>('green');
   const [draftedCards, setDraftedCards] = useLocalStorage(null, 'draftedCards');
+  const publicUrl = (process.env.PUBLIC_URL || "").replace(/\/$/, "");
+  const getSoundUrl = (fileName: string) =>
+    `${publicUrl || ""}/sounds/${fileName}`;
 
   useEffect(() => {
     setColor(chooseColor(round));
@@ -35,10 +38,14 @@ const Game = () => {
 
   useEffect(() => {
     // Only get cards if we're not in drafting mode or if we already have drafted cards
-    if (!cards && // No cards loaded yet
-      (settings.cardType !== 'generate' || wikiData) && // Only need wikiData for generated cards
-      (!settings.isDrafting || draftedCards)) {
-      setCards(settings.isDrafting ? draftedCards : getCards(settings, wikiData || []));
+    if (
+      !cards && // No cards loaded yet
+      (settings.cardType !== "generate" || wikiData) && // Only need wikiData for generated cards
+      (!settings.isDrafting || draftedCards)
+    ) {
+      setCards(
+        settings.isDrafting ? draftedCards : getCards(settings, wikiData || [])
+      );
     }
   }, [cards, setCards, settings, wikiData, draftedCards]);
 
@@ -61,6 +68,9 @@ const Game = () => {
   const next = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     if (paused) return;
+    const correctAudio = new window.Audio(getSoundUrl("correct.mp3"));
+    correctAudio.currentTime = 0;
+    correctAudio.play();
     const tempTeams = [...teams];
     const currentCard = remainingCards[0] as Card;
     tempTeams[0].score += currentCard.points;
@@ -68,26 +78,29 @@ const Game = () => {
     if (remainingCards.length > 1) {
       nextCard(remainingCards, setRemainingCards);
     } else {
-      ReactGA.event('turn_end', {
+      ReactGA.event("turn_end", {
         level_name: `round ${round}`,
       });
-      ReactGA.event('level_end', {
+      ReactGA.event("level_end", {
         level_name: `round ${round}`,
       });
       if (round === 3) {
-        ReactGA.event('game_complete');
+        ReactGA.event("game_complete");
       }
       setRemainingCards(null);
       setRemainingTime(settings.timer);
       setfirstPlayerInRound(true);
-      setScreen('game|round-recap');
+      setScreen("game|round-recap");
     }
   };
 
   const skip = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     if (paused) return;
-    ReactGA.event('skipped');
+    const skipAudio = new window.Audio(getSoundUrl("skip.mp3"));
+    skipAudio.currentTime = 0;
+    skipAudio.play();
+    ReactGA.event("skipped");
     skipCard(remainingCards, setRemainingCards);
   };
 

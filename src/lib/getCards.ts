@@ -1,4 +1,5 @@
 import baseCards from '../data/base_cards.json';
+import baseCardsHR from "../data/base_cards_hr.json";
 import { shuffleCards } from './helpers';
 
 function getCards(settings: Settings, wikiData: Article[]): Cards {
@@ -17,13 +18,15 @@ function getCards(settings: Settings, wikiData: Article[]): Cards {
         points: 1, // Default points for written cards
       };
     });
-  } else if (settings.cardType === 'base') {
+  } else if (settings.cardType === 'base' || settings.cardType === 'base_hr') {
     // Transform baseCards to correct type before shuffling
-    const transformedCards: Cards = baseCards.map(card => ({
+    let selectedBaseCards =
+      settings.cardType === "base" ? baseCards : baseCardsHR;
+    const transformedCards: Cards = selectedBaseCards.map((card) => ({
       title: card.title,
       description: card.description,
       category: card.category,
-      points: card.points
+      points: card.points,
     }));
     const shuffledCards = shuffleCards(transformedCards);
     const numCardsToSelect = Math.min(settings.cardCount, shuffledCards.length);

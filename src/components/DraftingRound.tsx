@@ -58,13 +58,23 @@ const DraftingRound = ({ onDraftComplete }: Proptypes) => {
 
     // Get all cards once when component mounts
     useEffect(() => {
-        if ((settings.cardType === 'base' || settings.cardType === 'generate') && (settings.cardType === 'base' || wikiData)) {
-            // Get enough cards for all players to draft from
-            const totalCards = getCards({
-                ...settings,
-                cardCount: settings.cardCount * 2 // Double the cards since each player sees twice what they'll pick
-            }, wikiData || []);
-            setAllCards(totalCards);
+        if (
+          (settings.cardType === "base" ||
+            settings.cardType === "generate" ||
+            settings.cardType === "base_hr") &&
+          (settings.cardType === "base" ||
+            settings.cardType === "base_hr" ||
+            wikiData)
+        ) {
+          // Get enough cards for all players to draft from
+          const totalCards = getCards(
+            {
+              ...settings,
+              cardCount: settings.cardCount * 2, // Double the cards since each player sees twice what they'll pick
+            },
+            wikiData || []
+          );
+          setAllCards(totalCards);
         }
     }, [settings, wikiData]);
 
