@@ -1,11 +1,7 @@
-<img src="https://img.shields.io/badge/node-v16.19.0-bgrightreen.svg?style=flat-square" alt="node" /> <img src="https://img.shields.io/badge/npm-v8.19.3-red.svg?style=flat-square" alt="npm" />
-[![Netlify Status](https://api.netlify.com/api/v1/badges/230945f9-9e67-435b-b2ad-1dd018a85fa7/deploy-status)](https://app.netlify.com/sites/mocknikers/deploys)
-
 <br />
+Fork of https://github.com/15huangtimothy/mocknikers - adds Croatian cards, sounds and few tweaks.
 
-<br />
-
-<a href="https://www.mocknikers.com" target="_blank"><img src="https://www.mocknikers.com/android-chrome-512x512.png" alt="Mocknikers" height="40" width="40" /> www.mocknikers.com</a>
+<a href="https://mmatasic.duckdns.org/mocknikers/" target="_blank"><img src="https://www.mocknikers.com/android-chrome-512x512.png" alt="Mocknikers" height="40" width="40" /> https://mmatasic.duckdns.org/mocknikers/</a>
 
 # Mocknikers
 
@@ -50,7 +46,7 @@ Cards are slightly different than in the physical game:
 
 This site is built on <a href="https://react.dev" target="_blank">React</a>. To install and run the app locally, in a terminal window run
 
-    git clone https://github.com/brysonchiu/mocknikers.git
+    git clone https://github.com/mmatasic/mocknikers
     nvm install
     npm install
     npm start
