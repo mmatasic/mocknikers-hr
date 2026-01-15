@@ -1,7 +1,7 @@
 <br />
 Fork of https://github.com/15huangtimothy/mocknikers - adds Croatian cards, sounds and few tweaks.
 
-<a href="https://mmatasic.duckdns.org/mocknikers/" target="_blank"><img src="https://www.mocknikers.com/android-chrome-512x512.png" alt="Mocknikers" height="40" width="40" /> https://mmatasic.duckdns.org/mocknikers/</a>
+Live version: <a href="https://mmatasic.duckdns.org/mocknikers/" target="_blank">https://mmatasic.duckdns.org/mocknikers/</a>
 
 # Mocknikers
 
