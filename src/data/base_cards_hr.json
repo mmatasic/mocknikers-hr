@@ -840,12 +840,6 @@
     "points": 1
   },
   {
-    "title": "Kamen s Visa",
-    "description": "Tvrdi, bijeli kamen koji se stoljećima klesao za gradnju kuća i palača. Kažu da je otporan na sve morske soli i da s godinama postaje samo ljepši.",
-    "category": "STVAR",
-    "points": 3
-  },
-  {
     "title": "Kamen škriljavac",
     "description": "Tanak i ravan kamen koji se u primorju koristio za pokrivanje krovova starih kuća umjesto crijepa. Takvi krovovi su vječni, ali izuzetno teški i zahtijevaju vrsne majstore gradnje.",
     "category": "STVAR",
@@ -2257,7 +2251,7 @@
   },
   {
     "title": "Slavko Štimac",
-    "description": "Glumac koji je karijeru započeo kao dijete u filmu 'Vuk samotnjak' i seriji 'Salaš u Malom Ritu'. Njegovo lice simbolizira nevinost i iskrenost jugoslavenske kinematografije.",
+    "description": "Glumac koji je karijeru započeo kao dijete u filmovima 'Vuk samotnjak','Vlak u snijegu' i seriji 'Salaš u Malom Ritu'. Njegovo lice simbolizira nevinost i iskrenost jugoslavenske kinematografije.",
     "category": "POZNATA OSOBA",
     "points": 3
   },
@@ -3201,7 +3195,7 @@
     "title": "Godišnji odmor na rate",
     "description": "Kad uzmeš petak i ponedjeljak slobodno pa se praviš da si bio na Maldivima, a zapravo si samo prefarbao ogradu i pokosio travu.",
     "category": "POJAM",
-    "points": 2
+    "points": 4
   },
   {
     "title": "Prva jutarnja pljuga",

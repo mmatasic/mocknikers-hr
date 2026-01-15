@@ -1,21 +1,44 @@
 import { useState } from 'react';
-import Button from './components/Button';
-import Settings from './components/Settings';
-import GameContext from './contexts/gameContext';
-import { defaultSettings, defaultScreen } from './lib/defaultSettings';
-import { useLocalStorage } from './lib/hooks';
-import { ThemeProvider } from 'styled-components';
-import { theme } from './styles/theme';
-import GlobalStyles from './styles/global';
-import { StyledBackgroundContiner } from './components/styles/BackgroundContiner.styled';
-import { StyledBackgroundImage } from './components/styles/BackgroundImage.styled';
-import { ReactComponent as BackgroudImage } from './images/monikers_characters.svg';
-import ReactGA from 'react-ga4';
+import styled from "styled-components";
+import Button from "./components/Button";
+import Settings from "./components/Settings";
+import GameContext from "./contexts/gameContext";
+import { defaultSettings, defaultScreen } from "./lib/defaultSettings";
+import { useLocalStorage } from "./lib/hooks";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./styles/theme";
+import GlobalStyles from "./styles/global";
+import { StyledBackgroundContiner } from "./components/styles/BackgroundContiner.styled";
+import { StyledBackgroundImage } from "./components/styles/BackgroundImage.styled";
+import { ReactComponent as BackgroudImage } from "./images/monikers_characters.svg";
+import ReactGA from "react-ga4";
+
+const LinkButton = styled.a`
+  position: absolute;
+  top: ${({ theme }) => `${theme.gridPoints * 2}px`};
+  right: ${({ theme }) => `${theme.gridPoints * 2}px`};
+  padding: ${({ theme }) =>
+    `${theme.gridPoints}px ${theme.gridPoints * 1.5}px`};
+  border-radius: ${({ theme }) => `${theme.gridPoints * 2}px`};
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.white};
+  background: ${({ theme }) => theme.colors.purple2};
+  border: 1px solid ${({ theme }) => theme.colors.white};
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  &:hover {
+    transform: translateY(-1px);
+    opacity: 0.85;
+  }
+`;
 
 function App() {
   const [wikiData, setWikiData] = useState<Article[] | null>(null);
-  const [settings, setSettings] = useLocalStorage(defaultSettings, 'settings');
-  const [screen, setScreen] = useLocalStorage(defaultScreen, 'screen');
+  const [settings, setSettings] = useLocalStorage(defaultSettings, "settings");
+  const [screen, setScreen] = useLocalStorage(defaultScreen, "screen");
 
   ReactGA.initialize("XXX", {
     gaOptions: {
@@ -99,6 +122,13 @@ function App() {
               className="background--centeredContent"
               background="beige"
             >
+              <LinkButton
+                href="https://drive.google.com/file/d/1I2IKfKGrORUyE3ZwY9ZKDlHdCjAlCELr/view?usp=drive_link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ? Rules
+              </LinkButton>
               <Button
                 className="button__centered-circle"
                 handleClick={newGame}
