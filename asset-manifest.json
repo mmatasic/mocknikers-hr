@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/mocknikers-hr/static/js/main.fa903518.js",
+    "main.js": "/mocknikers-hr/static/js/main.5cd19847.js",
     "static/js/488.bd36c4c0.chunk.js": "/mocknikers-hr/static/js/488.bd36c4c0.chunk.js",
     "static/media/monikers_characters.svg": "/mocknikers-hr/static/media/monikers_characters.ea4744931d9ff3172f7d6dfd885d6b3e.svg",
     "index.html": "/mocknikers-hr/index.html",
     "static/media/loading.svg": "/mocknikers-hr/static/media/loading.c49f7d715c65a34661d49a35ce8dd345.svg",
-    "main.fa903518.js.map": "/mocknikers-hr/static/js/main.fa903518.js.map",
+    "main.5cd19847.js.map": "/mocknikers-hr/static/js/main.5cd19847.js.map",
     "488.bd36c4c0.chunk.js.map": "/mocknikers-hr/static/js/488.bd36c4c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fa903518.js"
+    "static/js/main.5cd19847.js"
   ]
 }
