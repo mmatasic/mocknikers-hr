@@ -52,6 +52,14 @@ const Game = () => {
   const getSoundUrl = (fileName: string) =>
     `${publicUrl || ""}/sounds/${fileName}`;
   const [lastAction, setLastAction] = useState<LastAction | null>(null);
+  const scoreLine = teams
+    ? settings.teams
+        .map((teamName) => {
+          const matchingTeam = (teams as Teams).find((team) => team.team === teamName);
+          return matchingTeam ? matchingTeam.score : 0;
+        })
+        .join(':')
+    : '';
 
   useEffect(() => {
     setColor(chooseColor(round));
@@ -202,8 +210,13 @@ const Game = () => {
                       color={`${color}`}
                       disabled={!lastAction}
                     >
-                      ⟲
+                      ⟲&nbsp;UNDO
                     </Button>
+                    {scoreLine && (
+                      <div className="header__scores" aria-live="polite">
+                        {scoreLine}
+                      </div>
+                    )}
                   </Header>
                   <StyledCardContainer>
                     <Timer

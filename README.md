@@ -26,7 +26,7 @@ You can play the game in three different modes:
 1. **Base Game**: Play with cards from the official [Monikers Print-and-Play](https://s3.amazonaws.com/www.monikersgame.com/Press+kit/Monikers+PnP.pdf) set ([Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en))
 2. **Generated Cards**: Cards are generated from Wikipedia's daily top articles, keeping the content fresh and relevant to current events.
 3. **Written Cards**: Create your own custom deck by writing your own cards, perfect for themed games or inside jokes.
-
+4. **Croatian Cards**: Generated using AI
 ### Card Selection
 
 There are two ways to build your deck:

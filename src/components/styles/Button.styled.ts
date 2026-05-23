@@ -77,17 +77,13 @@ export const StyledButton = styled.button<{
     align-items: center;
   }
   &.button__undo {
-    width: 30px;
+    width: 70px;
     height: 30px;
     border-radius: 999px;
     position: absolute;
     left: 40px;
     top: 16px;
-    font-size: 1.5rem;
-    padding-right: 3px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    padding-top: 2px;
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1477,7 +1477,7 @@
   },
   {
     "title": "Minotaur",
-    "description": "Čudovište s glavom bika i tijelom čovjeka koje je kralj Minos držao zatočeno u mračnom Labirintu na Kreti. Naposljetku ga je ubio Tezej uz pomoć Arijadnine niti.",
+    "description": "Čudovište s glavom bika i tijelom čovjeka koje je kralj Minos držao zatočeno u mračnom Labirintu na Kreti. Naposljetku ga je ubio Tezej.",
     "category": "LIK",
     "points": 3
   },
@@ -1950,7 +1950,7 @@
     "points": 1
   },
   {
-    "title": "Prodžni kabel (za struju)",
+    "title": "Produžni kabel",
     "description": "Predmet koji uvijek nedostaje kada treba uključiti božićne lampice ili kosilicu. U svakom kućanstvu postoji onaj jedan koji je zamršen u neraskidivi čvor.",
     "category": "STVAR",
     "points": 2
@@ -3298,5 +3298,204 @@
     "description": "Mjesto gdje se testira tvoja brzina reagiranja. Ako ne kreneš u milisekundi zelenog, vozač iza tebe će te podsjetiti na cijelu tvoju obiteljsku povijest.",
     "category": "ŽIVOT U GRADU",
     "points": 4
+  },
+  {
+    "title": "Teleskop James Webb",
+    "description": "Najmoćnije oko čovječanstva u svemiru. Svaki tjedan objavljuje fotografije galaksija koje izgledaju kao umjetnička djela, otkrivajući početke vremena.",
+    "category": "ZNANOST",
+    "points": 3
+  },
+  {
+    "title": "Nvidia",
+    "description": "Tehnološki div čiji čipovi pokreću AI revoluciju. Postali su jedna od najvrjednijih tvrtki na svijetu, a njihove dionice su glavna tema financijskih vijesti.",
+    "category": "BUSINESS",
+    "points": 2
+  },
+  {
+    "title": "Cillian Murphy",
+    "description": "Glumac čije su prodorne plave oči postale sinonim za vrhunsku glumu u 'Oppenheimeru' i 'Peaky Blindersima'. Trenutno jedan od najpopularnijih glumaca na svijetu.",
+    "category": "POZNATA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Chat GPT",
+    "description": "Digitalni asistent koji piše zadaće, kodira i vodi filozofske rasprave. Alat koji je preko noći postao dio svakodnevice milijuna ljudi.",
+    "category": "TECH",
+    "points": 1
+  },
+  {
+    "title": "Max Verstappen",
+    "description": "Dominator Formule 1 koji pobjeđuje s tolikom lakoćom da se ostatak vozača bori samo za drugo mjesto. Robotizirana preciznost na četiri kotača.",
+    "category": "SPORT",
+    "points": 1
+  },
+  {
+    "title": "Zendaya",
+    "description": "Modna ikona i vrhunska glumica čiji svaki film (Dune, Challengers) i pojava na crvenom tepihu postaju vijest dana.",
+    "category": "POZNATA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Pedro Pascal",
+    "description": "Internetov omiljeni 'tata'. Glumac koji je osvojio publiku u 'The Last of Us' i 'Mandalorianu', postavši najtraženije lice Hollywooda.",
+    "category": "POZNATA OSOBA",
+    "points": 3
+  },
+   {
+    "title": "Eholokacija",
+    "description": "Sposobnost životinja poput šišmiša ili dupina da 'vide' zvukom, koristeći jeku odaslanih signala za snalaženje u potpunom mraku ili mutnoj vodi.",
+    "category": "BIOLOGIJA",
+    "points": 3
+  },
+  {
+    "title": "Panamski kanal",
+    "description": "Golemi inženjerski pothvat koji je doslovno presjekao kontinent kako bi spojio dva oceana, dramatično skraćujući put brodovima širom svijeta.",
+    "category": "ENGINEERING",
+    "points": 2
+  },
+  {
+    "title": "Mrtvo more",
+    "description": "Najdublja depresija na svijetu i jezero s toliko visokim salinitetom da u njemu nema života, a kupači u vodi plutaju bez ikakvog napora.",
+    "category": "ZEMLJOPIS",
+    "points": 2
+  },
+  {
+    "title": "Pangea",
+    "description": "Superkontinent koji je postojao prije stotina milijuna godina, kada su sve današnje kopnene mase bile spojene u jednu golemu cjelinu.",
+    "category": "GEOLOGIJA",
+    "points": 2
+  },
+  {
+    "title": "Vatreni prsten",
+    "description": "Područje u Tihom oceanu poznato po najvećoj koncentraciji aktivnih vulkana i razornih potresa, uzrokovanih pomicanjem tektonskih ploča.",
+    "category": "GEOLOGIJA",
+    "points": 2
+  },
+  {
+    "title": "Enigma (Stroj)",
+    "description": "Uređaj za šifriranje poruka koji su koristile njemačke snage u ratu. Njegovo razbijanje od strane matematičara smatra se ključnim trenutkom za završetak sukoba.",
+    "category": "POVIJEST",
+    "points": 3
+  },
+  {
+    "title": "Svileni put",
+    "description": "Drevna mreža trgovačkih putova koja je povezivala Istok i Zapad, omogućujući razmjenu robe, ideja i religija između dalekih civilizacija.",
+    "category": "POVIJEST",
+    "points": 2
+  },
+  {
+    "title": "Troja",
+    "description": "Legendarni grad poznat po desetogodišnjoj opsadi i lukavstvu s drvenim konjem. Dugo se smatrala mitom dok njezine ostatke nisu pronašli arheolozi.",
+    "category": "POVIJEST",
+    "points": 2
+  },
+  {
+    "title": "Uskršnji otok (Rapa Nui)",
+    "description": "Izolirani otok u Pacifiku poznat po stotinama golemih kamenih glava koje gledaju u unutrašnjost. Zagonetka je kako su drevni stanovnici pomicali te kolose.",
+    "category": "POVIJEST",
+    "points": 2
+  },
+  {
+    "title": "Haiku",
+    "description": "Kratka forma japanske poezije od tri stiha koja pokušava uhvatiti jedan trenutak u prirodi ili emociju koristeći strogo zadan broj slogova.",
+    "category": "KNJIŽEVNOST",
+    "points": 2
+  },
+  {
+    "title": "Placebo efekt",
+    "description": "Čudesna sposobnost tijela da se počne oporavljati samo zato što pacijent vjeruje da prima lijek, iako je zapravo uzeo potpuno neutralnu tvar.",
+    "category": "PSIHOLOGIJA",
+    "points": 2
+  },
+  {
+    "title": "Bermudski trokut",
+    "description": "Područje u Atlantiku gdje su navodno pod nerazjašnjenim okolnostima nestali brojni brodovi i zrakoplovi, potičući teorije o magnetskim anomalijama i vanzemaljcima.",
+    "category": "MISTERIJE",
+    "points": 2
+  },
+  {
+    "title": "Tunguska eksplozija",
+    "description": "Golemi udar koji je sravnio milijune stabala u Sibiru 1908. godine. Budući da nije pronađen krater, sumnja se na eksploziju meteora u samoj atmosferi.",
+    "category": "DOGAĐAJ",
+    "points": 4
+  },
+  {
+    "title": "Aurora Borealis",
+    "description": "Svijetleći fenomen na noćnom nebu uzrokovan sudarom čestica sa Sunca i Zemljine atmosfere, pretvarajući mrak u ples zelenih i ljubičastih boja.",
+    "category": "PRIRODNA POJAVA",
+    "points": 2
+  },
+  {
+    "title": "Entropija",
+    "description": "Fizikalna veličina koja opisuje mjeru nereda u sustavu. Prema zakonima termodinamike, ona u zatvorenom sustavu uvijek teži porastu.",
+    "category": "FIZIKA",
+    "points": 4
+  },
+  {
+    "title": "Dunning-Krugerov efekt",
+    "description": "Psihološki fenomen u kojem ljudi s vrlo malo znanja o nekoj temi precjenjuju svoje sposobnosti, dok stručnjaci često sumnjaju u vlastitu izvrsnost.",
+    "category": "PSIHOLOGIJA",
+    "points": 4
+  },
+  {
+    "title": "Ovca Dolly",
+    "description": "Prvi sisavac uspješno stvoren kloniranjem iz odrasle stanice. Njezin dolazak na svijet izazvao je revoluciju u genetici i brojne etičke rasprave.",
+    "category": "ZNANOST",
+    "points": 2
+  },
+  {
+    "title": "Crna rupa",
+    "description": "Regija u svemiru gdje je gravitacija toliko jaka da joj čak ni svjetlost ne može pobjeći. Sve što prijeđe njezin horizont događaja, zauvijek nestaje iz vidljivog svemira.",
+    "category": "SVEMIR",
+    "points": 2
+  },
+  {
+    "title": "Galaksija",
+    "description": "Golemi skup zvijezda, plina i prašine u obliku spirale u kojem se nalazi i naš Sunčev sustav, vrteći se oko nevidljivog središta.",
+    "category": "SVEMIR",
+    "points": 1
+  },
+  {
+    "title": "Pikselizacija",
+    "description": "Vizualni fenomen u digitalnoj slici gdje pojedinačni kvadratići boje postaju vidljivi ljudskom oku, uništavajući oštrinu i detalje prikaza.",
+    "category": "TEHNOLOGIJA",
+    "points": 1
+  },
+  {
+    "title": "Pelinkovac",
+    "description": "Tamno gusto piće od ljekovitog bilja, gorko poput istine i hladno poput pogleda bake kad se vratiš kući prekasno. Mnogi ga piju iz inata, neki iz tradicije, a najhrabriji iz užitka.",
+    "category": "PIĆE",
+    "points": 2
+  },
+  {
+    "title": "Boškarin",
+    "description": "Veliki bijeli istarski radnik s dugačkim rogovima koji se nekoć vukao plug po crvenoj zemlji, a danas završi na tanjuru kao delikatesa pod tartufima. Spas od izumiranja zahvaljuje upravo gastronomiji.",
+    "category": "ŽIVOTINJA",
+    "points": 3
+  },
+  {
+    "title": "Tin Ujević",
+    "description": "Razbarušeni bohem i pjesnik koji je pisao stihove o samoći i sjeti dok je rakijom plaćao kavanske dugove. Brada mu je bila gusta kao njegovi sonetni vijenci, a Zagreb pamti njegovo lutanje od stola do stola.",
+    "category": "POVIJESNA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Pelješac",
+    "description": "Dugačak vinorodni poluotok južne Dalmacije gdje se na strmim kamenim terasama rađa Dingač, a školjke se uzgajaju u tihim uvalama prema Stonu. Most ga je nedavno spojio s ostatkom domovine i ukinuo bosanski tampon-pojas.",
+    "category": "MJESTO",
+    "points": 2
+  },
+  {
+    "title": "Ruđer Bošković",
+    "description": "Isusovac iz Dubrovnika koji je u 18. stoljeću predvidio atomsku teoriju, mjerio meridijan i savjetovao papu o pukotinama u kupoli bazilike svetog Petra. Institut u Zagrebu nosi njegovo ime, a tako i jedna naša novčanica nekoć.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Bacati grah",
+    "description": "Drevna metoda proricanja budućnosti u kojoj se zrna prosipaju po stolu, a vidovita teta na temelju njihovog rasporeda otkriva ljubavnice, sudske parnice i tajne porodične afere. Plaća se gotovinom, a rezultati nisu vraćivi.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
   }
+
 ]
