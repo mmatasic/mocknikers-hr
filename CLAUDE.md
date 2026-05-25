@@ -57,6 +57,12 @@ When the user asks to generate/add new Croatian cards, follow the workflow and c
 
 **Card JSON shape:** `{ title, description, category, points }` — field order matters, match the existing file.
 
+**Language: Croatian only — never Serbian.** Both languages overlap heavily, so it's easy to slip into a Serbianism. Watch for these in particular:
+- Use Croatian forms when both exist: **kip** (not statua), **tisuća** (not hiljada), **siječanj/veljača/ožujak…** (not januar/februar…), **vlak** (not voz), **tjedan** (not nedelja for week), **zrak** (not vazduh), **vlastit** (not sopstven), **računalo** (not kompjuter when avoidable), **tisak** (not štampa), **kruh** (not hleb), **rajčica** (not paradajz), **mrkva** (not šargarepa).
+- Use **ije/je** (mlijeko, vrijeme), never the Serbian **e** form (mleko, vreme).
+- Use Latinic script (already the file's convention) — never Cyrillic.
+- Foreign personal/proper names: keep the original Latinic spelling (e.g. *Shakespeare*, *Voldemort*, *New York*), not phonetic Serbian transliteration (*Šekspir*, *Voldemor*, *Njujork*).
+
 **Spirit of the descriptions** (gleaned from the existing 577 cards):
 - 1–3 sentences, evocative and a bit playful — not encyclopedic.
 - Lead with a defining identification, then layer atmosphere, cultural hooks, or sensory detail.
@@ -90,11 +96,18 @@ When the user asks to generate/add new Croatian cards, follow the workflow and c
 - Calibrate against existing cards in the same category before assigning.
 
 **Workflow:**
-1. **Dedupe first.** Read the file and check the candidate title against existing titles (case-insensitive). If present, pick another.
-2. **Propose one card at a time** as a complete JSON object (all four fields) and ask the user to confirm or deny.
-3. **On confirm:** append the card to the end of the array. The file is *not* strictly alphabetically sorted — recent additions are appended, so appending is fine. Insert before the closing `]`, change the preceding `}` to `},`, and use 2-space indent matching surrounding entries.
-4. **On deny:** skip silently and propose the next.
-5. Continue until the user says to stop.
+1. **Dedupe first — ALWAYS against the full file, not from memory or a curated list.** Use the helper script:
+
+   ```bash
+   python3 .claude/scripts/card_helper.py check "Title 1" "Title 2" ...
+   ```
+
+   Any candidate that prints `PRESENT` must be replaced. (A duplicate has been introduced before by skipping this step; the script exists specifically to prevent that.)
+2. **Propose one batch at a time** as numbered complete JSON objects (all four fields each) and ask the user which numbers to include. Default batch size: 10, unless the user specifies otherwise.
+3. **On confirm (per-card or whole batch):** append the card(s) to the end of the array. The file is *not* strictly alphabetically sorted — recent additions are appended, so appending is fine. Insert before the closing `]`, change the preceding `}` to `},`, and use 2-space indent matching surrounding entries.
+4. **On deny:** skip silently.
+5. After appending, run `python3 .claude/scripts/card_helper.py stats` to confirm the total grew and no duplicates were introduced.
+6. Continue until the user says to stop.
 
 **Quality bar before proposing:**
 - Title is unique (verified against the file).

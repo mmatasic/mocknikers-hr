@@ -3341,7 +3341,7 @@
     "category": "POZNATA OSOBA",
     "points": 3
   },
-   {
+  {
     "title": "Eholokacija",
     "description": "Sposobnost životinja poput šišmiša ili dupina da 'vide' zvukom, koristeći jeku odaslanih signala za snalaženje u potpunom mraku ili mutnoj vodi.",
     "category": "BIOLOGIJA",
@@ -3612,10 +3612,585 @@
     "points": 1
   },
   {
-    "title": "Mlatiti praznu slamu",
-    "description": "Bavljenje potpuno besmislenim ili uzaludnim poslom u kojem se ulaže puno truda bez ikakvog rezultata. Često se odnosi i na duge razgovore koji ne vode nigdje.",
+    "title": "Marin Držić",
+    "description": "Renesansni dubrovački komediograf čija je drama o starcu škrtcu i njegovom sinu Maru još uvijek najizvođenija domaća predstava. Iza vedrih komedija krio je zavjeru protiv vlasti i bio nesumnjivo najsubverzivniji um svoga doba.",
+    "category": "POVIJESNA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Maslina",
+    "description": "Drevna mediteranska voćka srebrnastih listova čiji plod fermentiramo u salamuri ili tiještimo u zlatno-zeleno ulje. Stabla na Pelješcu i Braču žive preko tisuću godina, a njezina grana je simbol mira.",
+    "category": "JELO",
+    "points": 1
+  },
+  {
+    "title": "Jadran",
+    "description": "Plavo more koje pere zapadnu hrvatsku obalu i zatvara se Otrantskim vratima. Ime mu se vezuje za boju neba u suton i za milijune turista koji ljeti naviru s njemačkim tablicama.",
+    "category": "MJESTO",
+    "points": 1
+  },
+  {
+    "title": "Šah",
+    "description": "Drevna kraljevska igra za dvoje na ploči od šezdeset četiri polja u dvije boje. Cilj je zarobiti suparničkog kralja, a partije između Rusa i Amerikanaca tijekom Hladnog rata pratili su milijuni.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Drugi svjetski rat",
+    "description": "Najveći oružani sukob u povijesti čovječanstva koji je trajao šest godina i zahvatio gotovo cijelu Europu i Pacifik. Završio je atomskim bljeskovima nad Hirošimom i Nagasakijem i podijelio svijet na dvije velesile.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Berlinski zid",
+    "description": "Betonska barijera koja je trideset godina dijelila istočni od zapadnog dijela glavnog grada Njemačke. Njezino rušenje 1989. simboliziralo je kraj Hladnog rata, a fragmenti se danas prodaju kao suveniri.",
+    "category": "MJESTO",
+    "points": 2
+  },
+  {
+    "title": "Praviti se Englez",
+    "description": "Smišljeno ignoriranje situacije, problema ili razgovora kao da se ništa ne događa. Klasično ponašanje šefa kad mu se obratiš za povišicu ili kolege kad treba isprati šalice.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Pljeskavica",
+    "description": "Komad miješanog mljevenog mesa pripremljen na žaru u obliku velikog tankog medaljona, posluženog u somunu uz sjeckani luk, ajvar i kajmak. Standardni obrok nakon noćnog izlaska na cijelom Balkanu.",
+    "category": "JELO",
+    "points": 2
+  },
+  {
+    "title": "iPhone",
+    "description": "Američki pametni telefon ugleda Apple s prepoznatljivim odgrizenim logotipom na poleđini. Status simbol koji se mijenja svake godine, iako se promjene jedva primjećuju.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Žaba",
+    "description": "Vodozemac koji ljeti krekeće u ribnjaku i baca jezik na muhe. U bajkama se u princa pretvara nakon poljupca, a u biologiji je standardni primjer za disekciju u srednjoj školi.",
+    "category": "ŽIVOTINJA",
+    "points": 1
+  },
+  {
+    "title": "Antun Mihanović",
+    "description": "Diplomat i pjesnik iz Klanjca koji je 1835. napisao stihove koji su kasnije postali nacionalna himna. Njegov rodni kraj ponosno čuva spomenik i ploču koja označava mjesto gdje je nastala 'lijepa naša'.",
+    "category": "POVIJESNA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Šljivovica",
+    "description": "Žestoka rakija destilirana iz fermentiranih plavih plodova koja se nalazi u svakoj balkanskoj seoskoj kući. Nudi se gostima već u devet ujutro, a redovito se kao lijek koristi protiv prehlade, depresije i lošeg vremena.",
+    "category": "PIĆE",
+    "points": 2
+  },
+  {
+    "title": "Mljet",
+    "description": "Šumovit južnodalmatinski otok čiji nacionalni park čuvaju dva slana jezera s benediktinskim samostanom na otočiću usred većeg. Smatra se najzelenijim otokom Jadrana.",
+    "category": "MJESTO",
+    "points": 2
+  },
+  {
+    "title": "Brodet",
+    "description": "Tradicionalni dalmatinski riblji gulaš pripreman od miješanih ribica i rakova u rajčici, posluživa se uz pravu kukuruznu kašu. Ribari su ga radili na otvorenom moru od svega što se zatekne u mrežama.",
+    "category": "JELO",
+    "points": 3
+  },
+  {
+    "title": "Cristiano Ronaldo",
+    "description": "Portugalski nogometni superstar prepoznatljiv po isklesanim mišićima, savršenoj frizuri i kapitalnom skoku u zraku. Vlasnik je vlastite linije donjeg rublja i vječni rival argentinskog malog genija.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Zlatne ruke",
+    "description": "Iznimna sposobnost rješavanja praktičnih problema koja prati prave majstore u kuhinji, garaži ili na gradilištu. Takvi ljudi popravljaju sve, od slavine do braka, a komplimentom za to često zarade i besplatan ručak.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Lavanda",
+    "description": "Mirisna ljubičasta biljka kojom su zasađena brda Hvara i Provence, a u kućanstvu se ulje iz nje koristi protiv komaraca i nesanice. U vrećicama među rublje stavlja se da bi tjerala moljce.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Vikinški brod",
+    "description": "Drvena lađa dugog uskog trupa s pravokutnim jedrom i zmajskom glavom na pramcu, kojom su nordijski ratnici plovili od Norveške do Sjeverne Amerike. Veslima su upravljali bradonje sa šljemovima.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Faraon",
+    "description": "Apsolutni vladar drevne egipatske civilizacije smatrao se božjim utjelovljenjem na zemlji. Pokapali su ga u zlato i piramide, a njegovo tijelo balzamirali u zavojima za vječni život.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Stjepan Radić",
+    "description": "Vođa Hrvatske seljačke stranke s početka 20. stoljeća čija su zalaganja za prava seljaka i federalizam okončana pucnjavom u beogradskoj skupštini 1928. Njegova smrt zapečatila je sudbinu prve jugoslavenske države.",
+    "category": "POVIJESNA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Lionel Messi",
+    "description": "Niski argentinski genijalac lijeve noge koji je gotovo cijelu karijeru proveo u dresu Barcelone i konačno podigao Svjetski pokal u Kataru. Njegove brojke u napadu nadmašuju i najveće veterane igre.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Netflix",
+    "description": "Američka platforma za strujanje filmova i serija s prepoznatljivim crvenim slovom N. Vlasnici joj prijete cijepanjem računa s rođacima, a algoritam ti uporno predlaže ono što već nisi htio gledati.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Emoji",
+    "description": "Mali šareni piktogrami koji u porukama zamjenjuju emocije, namjere i sastojke ručka. Bez njih SMS izgleda hladno kao obavijest sa suda.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Titanik",
+    "description": "Britanski parobrod proglašen nepotopivim koji je u travnju 1912. nakon sudara s ledenom santom potonuo na svom prvom putovanju. Holivudski film s mladim DiCapriom napravio je od te tragedije najveću ljubavnu priču ekrana.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Ćevapi",
+    "description": "Male valjkaste kobasice od miješanog mljevenog mesa pripremljene na žaru, posluživane u somunu uz nasjeckani luk, kajmak i ajvar. Standardna jugoslavenska kantinska poslastica koja se računa na komade.",
+    "category": "JELO",
+    "points": 1
+  },
+  {
+    "title": "Brač",
+    "description": "Veliki dalmatinski otok od bijelog kamena od kojeg je sagrađena i Bijela kuća u Washingtonu. Najpoznatiji mu je rt koji mijenja oblik s vjetrom i privlači surfere iz cijelog svijeta.",
+    "category": "MJESTO",
+    "points": 1
+  },
+  {
+    "title": "Morske orgulje",
+    "description": "Arhitektonsko-glazbena instalacija na zadarskoj rivi koja kroz cijevi pod stubama proizvodi harmonske zvukove pokretane valovima i plimom. Bašićev autorski dvojac s Pozdravom suncu.",
+    "category": "STVAR",
+    "points": 3
+  },
+  {
+    "title": "Praviti slona od mrava",
+    "description": "Pretjerivanje s beznačajnim problemom dok od sitnice ne postane drama biblijskih razmjera. Karakteristično za partnera koji nije popio jutarnju kavu.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Jugo",
+    "description": "Vlažan i topao vjetar koji puše s juga prema kopnu i donosi tmurno vrijeme, glavobolje i loše raspoloženje. U vrijeme njegove vladavine Dalmatinci se ne raspravljaju ozbiljno.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Vatroslav Lisinski",
+    "description": "Hrvatski skladatelj iz 19. stoljeća koji je 1846. napisao prvu nacionalnu operu pod naslovom 'Ljubav i zloba'. Po njemu se zove i najveća zagrebačka koncertna dvorana smještena ispred Glavnog kolodvora.",
+    "category": "POVIJESNA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Gibonni",
+    "description": "Splitski kantautor mediteranskog stila čiji su tekstovi na čakavskom dijalektu pretvorili pučke pjesme u poetski govor. Posljednjih desetljeća punio je sve dvorane od Pule do Beograda.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "YouTube",
+    "description": "Američka internetska platforma za dijeljenje videa s milijardama korisnika dnevno. Tu se gleda sve, od mačaka koje sviraju klavir do dvosatnih objašnjenja o tome kako se proizvodi olovka.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Krk",
+    "description": "Najveći hrvatski otok smješten na sjevernom Jadranu i jedini spojen s kopnom mostom. Na njemu je pronađena slavna srednjovjekovna kamena ploča s glagoljskim natpisima.",
+    "category": "MJESTO",
+    "points": 1
+  },
+  {
+    "title": "Pegla",
+    "description": "Kućanski aparat s vrelom metalnom podlogom kojim se izglađuju nabori na košuljama i hlačama. Češće od bilo kojeg drugog uređaja ostavlja ožiljke u obliku trokuta na zaboravljenoj tkanini.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Lešo",
+    "description": "Najjednostavniji način priprave svježe ribe na dalmatinski način: skuhana u slanoj vodi s lovorom, prelijeva se maslinovim uljem, češnjakom i peršinom. Konzervativni starci tvrde da samo tako možeš osjetiti pravi okus mora.",
+    "category": "JELO",
+    "points": 2
+  },
+  {
+    "title": "Kockice",
+    "description": "Mali kvadratni objekti sa šest brojeva označenih točkama, po jedan broj na svakoj strani. Bacaju se po stolu kako bi se prepustila volja sudbini u 'Čovječe ne ljuti se' i kasinima diljem svijeta.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Vuk u janjećoj koži",
+    "description": "Naizgled bezopasna ili krotka osoba koja zapravo skriva podmukle namjere i opasne planove. Najčešće se ukaže kao prijateljski susjed ili nasmijani kolega koji ti kasnije ukrade promaknuće.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Zmaj",
+    "description": "Mitološko četveronožno biće s krilima i čvrstom krljušti koje rumi vatru iz usta. U bajkama čuva blago ili zarobljenu princezu, a u kineskoj kulturi simbolizira sreću i carstvo.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Pele",
+    "description": "Brazilski nogometni kralj iz Santosa s tri osvojena svjetska prvenstva, čije je ime postalo sinonim za savršenstvo igre. Smatra se najboljim igračem 20. stoljeća, a u domovini je dobio status nacionalnog blaga.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Zlatan Ibrahimović",
+    "description": "Visok i ohol švedski napadač bosanskih korijena poznat po akrobatskim škarama i izjavama u trećem licu. Igrao je za sve najveće europske klubove, a o sebi snimio dokumentarce u stilu boga rata.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Kajmak",
+    "description": "Mliječna krema sa skupljenog gornjeg sloja kuhanog mlijeka, slana i bogata mašću, koja se servira uz pljeskavicu, ćevape ili topli kruh. Stvara se tjednima u zemljanim posudama u brdskim selima.",
+    "category": "JELO",
+    "points": 2
+  },
+  {
+    "title": "Tarot karte",
+    "description": "Špil od sedamdeset osam slikovnih komada s mistično obojenim figurama koje vidovnjaci koriste za proricanje ljubavnih čvorišta i poslovnih prekretnica. Slika smrti zapravo nije najgora, ali plaši najviše klijenata.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Učka",
+    "description": "Najviši planinski masiv Istre prepoznatljiv po sivim padinama i tunelu kroz kojeg se s mora dolazi do unutrašnjosti. S vrha se otvara pogled na cijeli Kvarnerski zaljev i talijanski Trst.",
+    "category": "MJESTO",
+    "points": 2
+  },
+  {
+    "title": "Magarac",
+    "description": "Dugouhi tovarni stvor jakog karaktera koji se na dalmatinskim otocima održao kao simbol upornosti i mukotrpnog života. Kažu da kad jednom stane, ni cijela vojska ga ne može pomaknuti.",
+    "category": "ŽIVOTINJA",
+    "points": 1
+  },
+  {
+    "title": "Sirena za zračnu uzbunu",
+    "description": "Glasna naprava montirana na vrhovima zgrada koja u slučaju opasnosti zavija svojim karakterističnim uzlazno-silaznim tonom. U Hrvatskoj se još redovito ispituje u podne prve subote u mjesecu.",
+    "category": "STVAR",
+    "points": 3
+  },
+  {
+    "title": "Plivati protiv struje",
+    "description": "Inatljiv otpor većinskom mišljenju ili općeprihvaćenom pravcu, najčešće s mnogo više truda i manje rezultata. Karakteristika svakog umjetnika i tinejdžera.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Maraschino",
+    "description": "Bistar slatki liker s otoka i okolice Zadra destiliran iz lokalne sorte tamne višnje. Carevi, kraljice i pape stoljećima su ga naručivali za svoje dvorove.",
+    "category": "PIĆE",
+    "points": 3
+  },
+  {
+    "title": "Kemijska olovka",
+    "description": "Pisaći pribor s metalnom kuglicom na vrhu i unutarnjim uloškom tinte, najčešće u plavoj ili crnoj boji. Uvijek nedostaje kad ti zatreba i uvijek ga ima previše u jednoj ladici.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Joker",
+    "description": "Manijakalni gotamski negativac s blijedobijelim licem, zelenom kosom i ljubičastim odijelom koji prijeti svom mračnom maskiranom protivniku uz histeričan smijeh. U različitim filmskim verzijama tumačili su ga Nicholson, Ledger i Phoenix.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Yoda",
+    "description": "Maleni zeleni svemirski mudrac s velikim ušima koji govori obrnuto poredanim rečenicama i vlada Silom. Stoljećima je obučavao Jedi viteze u udaljenoj galaksiji.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Romeo i Julija",
+    "description": "Najpoznatiji nesretni par u svjetskoj književnosti, dva mlada zaljubljenika iz suprotstavljenih veronskih obitelji koja su radije izabrala smrt nego život jedno bez drugoga. Shakespeareova tragedija oduvijek je obavezna srednjoškolska lektira.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Pinocchio",
+    "description": "Drveni dječak iz talijanske bajke kojem nos raste svaki put kad slaže. Otac stolar Geppetto ga je sklesao iz drveta, a plava vila mu je darovala život.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Super Mario",
+    "description": "Talijanski instalater s crvenom kapom i debelim brkovima koji u Gljivarstvu skače po kornjačama da bi spasio princezu od bodljikavog zmajskog kralja. Najprodavanija videoigračka maskota u povijesti.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Bluetooth",
+    "description": "Bežični protokol kratkog dometa imenovan po danskom kralju koji je spojio plemena. Koristi se za povezivanje slušalica, zvučnika i miševa, a redovito se gubi u najnepogodnijim trenucima.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Trojanski konj",
+    "description": "Drvena šuplja figura životinje ostavljena Trojancima kao 'dar' grčke vojske, u kojoj su se zapravo sakrili vojnici. Danas se taj naziv koristi i za zlonamjerni softver koji se pretvara da je nešto drugo.",
+    "category": "STVAR",
+    "points": 3
+  },
+  {
+    "title": "Maraton",
+    "description": "Atletska disciplina trčanja duga 42 kilometra i 195 metara, ime je dobila po grčkom glasniku koji je trčao tako daleko da bi izvijestio o pobjedi nad Perzijancima. Završne dionice preživi samo svaki drugi natjecatelj.",
+    "category": "SPORT",
+    "points": 2
+  },
+  {
+    "title": "Origami",
+    "description": "Japanska umjetnička tehnika presavijanja kvadratnog komada papira u trodimenzionalne figure poput ždralova, žaba i kornjača. Bez škara i ljepila, samo strpljivost i savršeni nabori.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Don Quijote",
+    "description": "Lukavi španjolski 'vitez tužnog lika' koji je nakon previše viteških romana izgubio razum i tukao se s vjetrenjačama misleći da su divovi. Cervantes ga je zajedno s vjernim slugom Sanchom Panzom utisnuo u temelje europskog romana.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Wikipedia",
+    "description": "Najveća besplatna online enciklopedija koju pišu i uređuju anonimni dobrovoljci iz cijelog svijeta. Prvo mjesto na koje skreneš kad ti netko spomene nepoznati pojam, a profesori ti je nikad neće priznati kao izvor.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Spider-Man",
+    "description": "Mladi tinejdžer iz New Yorka koji je nakon ugriza radioaktivnog pauka stekao supersnagu i sposobnost penjanja po zidovima. Plete mreže iz ručnih zglobova i bori se protiv negativaca s krilima i pipcima.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Darth Vader",
+    "description": "Visoki crni vojnik tamne strane Sile s mehaničkim disanjem i crvenim svjetlosnim mačem. U najpoznatijem filmskom obratu otkriva svom protivniku da mu je otac.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Kip slobode",
+    "description": "Visoki zeleni ženski kip s krunom i bakljom koji s otoka u njujorškoj luci pozdravlja doseljenike. Francuska ga je darovala Amerikancima u 19. stoljeću kao simbol prijateljstva i izborenih prava.",
+    "category": "MJESTO",
+    "points": 1
+  },
+  {
+    "title": "Tiramisu",
+    "description": "Talijanski hladni desert složen u slojevima keksa namočenih u kavi, kreme od mascarpone sira i grube prašine kakaa. Naziv mu na talijanskom doslovno znači 'podigni me'.",
+    "category": "JELO",
+    "points": 1
+  },
+  {
+    "title": "Karaoke",
+    "description": "Japanska zabava u kojoj amateri ispred publike pjevaju poznate hitove u mikrofon dok im se tekst u boji prikazuje na ekranu. Standardna kvaliteta izvedbe drastično pada nakon trećeg piva.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Polaroid",
+    "description": "Fotoaparat koji odmah nakon snimanja izbacuje malu kvadratnu fotografiju s bijelim rubom koja se polako razvija pred očima. Prije pojave pametnih telefona bio je najbrži način da uhvatiš trenutak.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Iglu",
+    "description": "Polukupolasta kuća izgrađena od blokova zbijenog snijega, tradicionalno utočište Inuita na Arktiku. Iznutra je iznenađujuće topla jer led odlično izolira tjelesnu toplinu.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Voldemort",
+    "description": "Najveći mračni čarobnjak modernih bajki, bez nosa i s gmazolikim licem, kojeg se svi boje toliko da mu izbjegavaju izgovarati ime. Harryju je ubio roditelje i ostavio mu ožiljak u obliku munje.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Akvarij",
+    "description": "Stakleni spremnik napunjen vodom u kojem se uzgajaju ribe, koralji i druge vodene biljke i životinje. U dnevnom boravku služi kao smirujući ekran s pravim glumcima.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Espresso",
+    "description": "Mala šalica koncentrirane talijanske kave napravljena pod tlakom vrele vode kroz fino mljevena zrna. Trebao bi se popiti u dva gutljaja, ali nikad se ne pije bez kockice šećera ili kratkog razmišljanja.",
+    "category": "PIĆE",
+    "points": 1
+  },
+  {
+    "title": "Croissant",
+    "description": "Maslena lisnata francuska peciva u obliku polumjeseca, popularan doručak uz mliječnu kavu. Naziv mu na francuskom doslovno znači 'rastući mjesec'.",
+    "category": "JELO",
+    "points": 1
+  },
+  {
+    "title": "Gondola",
+    "description": "Uska crna venecijanska barka zakrivljenog pramca kojom mornar u prugastoj košulji vesla turistima kroz uske kanale uz povremenu serenadu. Najljepša u sumrak, najskuplja po podne.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Skateboard",
+    "description": "Drvena ploča s četiri mala kotača na kojoj se mladež vozi po ulicama i u parkovima izvodeći skokove i trikove. Najčešći uzrok modrica i razdrtih koljena u tinejdžera.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "King Kong",
+    "description": "Golemi gorila ulovljen na tropskom otoku koji se u kultnom holivudskom filmu penje uz najviši neboder u New Yorku držeći u ruci uplašenu plavokosu ženu. Avioni mu kruže oko vrha pokušavajući ga srušiti.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Homer Simpson",
+    "description": "Žuti debeli otac iz najduže animirane serije u povijesti televizije, lijen i blesav, ali srcem zlatan. Radi u nuklearnoj elektrani, voli krafne i pivo Duff, a obitelj mu živi u Springfieldu.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Lego kocka",
+    "description": "Mala plastična kockica s ispupčenim grbicama koja se s drugima slaže u beskonačne građevine i likove. Pri stupanju bosom nogom na nju izaziva nepodnošljivu bol potpuno nesrazmjernu njezinoj veličini.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Naočale",
+    "description": "Dvije staklene ili plastične leće umetnute u okvir koji se postavlja na nos i uši kako bi se ispravila vidna oštrina. Kratkovidan ih čovjek osamdeset posto vremena traži, a one mu sve to vrijeme stoje na čelu.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Boriti se s vjetrenjačama",
+    "description": "Uzaludan napad na imaginarne neprijatelje ili nemoguće sustave koje pojedinac ne može pobijediti. Klasično opisuje one koji se svađaju s birokracijom ili obiteljskim grupnim chatom.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Vincent van Gogh",
+    "description": "Nizozemski slikar postimpresionizma poznat po svojim suncokretima i svjetlucavoj 'Zvjezdanoj noći'. Patio je od mentalnih kriza i u jednoj od njih si je odsjekao komad uha, a za života je prodao samo jednu sliku.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Marie Curie",
+    "description": "Poljsko-francuska fizičarka koja je s mužem otkrila radioaktivne elemente radij i polonij. Dobila je dvije Nobelove nagrade u različitim znanstvenim područjima i postala prva žena s takvim postignućem u povijesti.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Freddie Mercury",
+    "description": "Britanski rock pjevač s prepoznatljivim brkovima i četverooktavnim glasom koji je vodio jedan od najvećih bendova svih vremena. Umro je rano od AIDS-a, ostavivši za sobom 'Bohemian Rhapsody' i 'We Are the Champions'.",
+    "category": "POZNATA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Forrest Gump",
+    "description": "Alabamski jednostavan dječak prosječnog intelekta koji u Hanksovoj kultnoj ulozi sudjeluje u svim ključnim događajima druge polovice 20. stoljeća — Vijetnamskom ratu, susretima s predsjednicima i pingpongu protiv Kineza. Mama mu je rekla da je život poput bombonijere.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Terminator",
+    "description": "Mišićavi kibernetički ubojica iz budućnosti poslat kroz vrijeme da promijeni tijek povijesti. Pod oklopom od žive metalne mreže krije se Schwarzeneggerov ledeni pogled i kultna replika 'Vratit ću se'.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Gandalf",
+    "description": "Sijed čarobnjak duge bijele brade i šiljastog šešira s tankim štapom koji vodi družinu kroz Međuzemlje. U prvoj knjizi pada u ponor s vatrenim demonom, ali se vraća kao još moćnija inačica.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Pinata",
+    "description": "Šarena papirnata figura životinje ili lika napunjena slatkišima i sitnim igračkama, koju djeca na rođendanima udaraju štapom dok se ne razbije i prospe sadržaj. Meksička tradicija koja je osvojila zabave diljem svijeta.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Cappuccino",
+    "description": "Talijanska kava s gustom pjenom toplog mlijeka na vrhu, posuta kakaom ili cimetom. Pravi Talijani je piju samo ujutro do jedanaest, a tko je naruči poslije ručka iskazuje vlastiti barbarizam.",
+    "category": "PIĆE",
+    "points": 1
+  },
+  {
+    "title": "Tomislav Bralić",
+    "description": "Voditelj jedne od najpoznatijih hrvatskih klapa s otoka Visa čije domoljubne pjesme znaju gotovo svi navijači. Punio je dvorane u kojima se uglavnom pjevaju iste tri stvari koje je već svatko čuo barem stotinu puta.",
+    "category": "POZNATA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Pivo",
+    "description": "Pjenušav alkoholni napitak fermentiran od ječmenog slada, hmelja i vode, najčešće u zlatnoj ili tamnoj boji. Standardna univerzalna valuta za prijateljstvo, dobre večeri i nogometne utakmice.",
+    "category": "PIĆE",
+    "points": 1
+  },
+  {
+    "title": "Damoklov mač",
+    "description": "Prijeteća opasnost koja stalno visi nad nekim spreman pasti u svakom trenutku. Po grčkoj priči vladar je nezadovoljnog dvoranina posjeo na svoje prijestolje s oštrim oružjem obješenim o konjsku dlaku iznad glave.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Pandorina kutija",
+    "description": "Posuda iz grčke mitologije koju je prva žena na zemlji otvorila iz znatiželje i iz nje ispustila sve nevolje, bolesti i jad u svijet. Na dnu je ostala samo nada, kao slabi savez za sve što slijedi.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Ahilova peta",
+    "description": "Jedino slabo mjesto inače moćne osobe ili sustava, kroz koje cijela građevina može pasti. Po grčkom junaku kojeg je majka kao dijete uronila u nepobjedivu rijeku, ali za nogu mu je ostala suha mrlja na kojoj ga je strijela ipak ranila.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Sizifov posao",
+    "description": "Beskonačan i besmislen zadatak koji uvijek treba ponovno započinjati od početka, kao rolanje kamena uzbrdo koji se odmah skotrlja natrag dolje. Albert Camus je u eseju o ovom mitološkom junaku tražio smisao apsurda.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Bolje vrabac u ruci nego golub na grani",
+    "description": "Narodna mudrost koja preporučuje držati se onoga što imaš, koliko god skromno, umjesto da rizično juriš za nečim većim a nesigurnim. Vrlo praktičan savjet za poslovne odluke i ljubavne dileme.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "U Rim svi putovi vode",
+    "description": "Stara izreka koja kaže da postoji više različitih načina za doći do istog cilja. Potječe iz vremena kad je glavni grad antičkog Carstva bio metropola u koju je doslovce stizala svaka pločnička magistrala.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Hladni rat",
+    "description": "Razdoblje napete političke i vojne tenzije između sovjetskog i zapadnog bloka koje je trajalo od kraja velikog svjetskog sukoba 1945. do pada Berlinskog zida. Vodile su ga dvije velesile bez izravnog oružanog obračuna, ali uz utrku u svemiru i nuklearnu prijetnju.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Murphyjev zakon",
+    "description": "Pesimistično pravilo svakodnevnice koje kaže da će sve što može poći krivo, doista poći krivo, i to u najgorem mogućem trenutku. Najbolje vrijedi kad kasniš na važan let ili u garderobi nestaje jedna čarapa.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Stockholmski sindrom",
+    "description": "Psihološka pojava u kojoj zatočenik ili žrtva razvija emocionalnu povezanost prema vlastitom mučitelju ili otmičaru. Naziv potječe iz švedskog glavnog grada gdje su 1973. taoci na kraju branili svoje napadače pred policijom.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Plakati za prolivenim mlijekom",
+    "description": "Žaljenje za prošlim greškama ili izgubljenim prilikama koje se više ne mogu vratiti niti popraviti. Energija koja bi se mogla bolje iskoristiti za rješavanje sadašnjih problema umjesto vraćanja na ono što je gotovo.",
     "category": "APSTRAKTNI IZRAZ",
     "points": 4
   }
-
 ]

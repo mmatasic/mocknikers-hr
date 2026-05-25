@@ -3,7 +3,6 @@ Fork of https://github.com/15huangtimothy/mocknikers - adds Croatian cards, soun
 
 Live versions:
 - <a href="https://mmatasic.github.io/mocknikers-hr/" target="_blank">https://mmatasic.github.io/mocknikers-hr/</a> (GitHub Pages)
-- <a href="https://mmatasic.duckdns.org/mocknikers/" target="_blank">https://mmatasic.duckdns.org/mocknikers/</a>
 
 # Mocknikers
 
