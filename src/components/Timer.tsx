@@ -3,7 +3,6 @@ import GameContext from '../contexts/gameContext';
 import { skipCard, nextTeam } from '../lib/helpers';
 import { useConextIfPopulated } from '../lib/hooks';
 import { StyledTimer } from './styles/Timer.styled';
-import ReactGA from 'react-ga4';
 
 type Proptypes = {
   paused: boolean;
@@ -60,15 +59,12 @@ const Timer = ({ paused, remainingTime, setRemainingTime, teams, setTeams, remai
   useEffect(() => {
     localStorage.setItem('remainingTime', JSON.stringify(remainingTime));
     if (remainingTime === 0) {
-      ReactGA.event('turn_end', {
-        level_name: `round ${round}`,
-      });
       skipCard(remainingCards, setRemainingCards);
       resetTimer();
       setTeams(nextTeam(teams));
       setScreen('game|switch-player');
     }
-  }, [remainingCards, remainingTime, resetTimer, setRemainingCards, setScreen, setTeams, teams, round]);
+  }, [remainingCards, remainingTime, resetTimer, setRemainingCards, setScreen, setTeams, teams]);
 
   useEffect(() => {
     if (paused) {

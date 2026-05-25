@@ -4,7 +4,6 @@ import { useConextIfPopulated } from '../lib/hooks';
 import Button from './Button';
 import { StyledBackgroundContiner } from './styles/BackgroundContiner.styled';
 import { StyledInterstitialContainer } from './styles/Container-Interstitial.styled';
-import ReactGA from 'react-ga4';
 
 type Proptypes = {
   round: number;
@@ -18,9 +17,6 @@ type Proptypes = {
 const SwitchPlayer = ({ round, teams, setRemainingTime, color, firstPlayerInRound, setfirstPlayerInRound }: Proptypes) => {
   const { setScreen }: GameContext = useConextIfPopulated(GameContext);
   function startTurn(e: React.MouseEvent<HTMLButtonElement>) {
-    ReactGA.event('turn_start', {
-      level_name: `round ${round}`,
-    });
     e.preventDefault();
     setfirstPlayerInRound(false);
     setScreen('game');

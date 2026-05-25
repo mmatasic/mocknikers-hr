@@ -34,8 +34,6 @@ Card JSON shape: `{ title, description, category, points }`.
 
 **Audio:** Sound files are in `public/sounds/` and triggered inline via `new window.Audio(...)` on correct/skip actions.
 
-**Analytics:** React GA4 tracks gameplay events; runs in debug mode during development.
-
 ## Key files
 
 | File | Purpose |

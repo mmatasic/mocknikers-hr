@@ -9,25 +9,12 @@ import Header from './Header';
 import { StyledBackgroundContiner } from './styles/BackgroundContiner.styled';
 import { StyledContainer } from './styles/Container.styled';
 import { StyledSettings } from './styles/Settings.styled';
-import ReactGA from 'react-ga4';
 import { getWikiArticles } from '../lib/getWikiData';
 import Loading from './Loading';
 
 const Settings = () => {
   const { screen, settings, setSettings, setScreen, wikiData, setWikiData }: GameContext = useConextIfPopulated(GameContext);
   const [isLoading, setIsLoading] = useState(false);
-
-  const logGameStart = () => {
-    ReactGA.event('start_game', {
-      card_type: settings.cardType,
-      team_count: settings.teams.length,
-      timer: settings.timer,
-      allow_skips: settings.allowSkips,
-      generated_card_count: settings.cardType === 'generate' ? settings.cardCount : null,
-      is_drafting: settings.isDrafting,
-      player_count: settings.playerCount,
-    });
-  };
 
   async function startGame(e: React.MouseEvent<HTMLButtonElement>) {
     if (!isDraftingValid()) {
@@ -41,7 +28,6 @@ const Settings = () => {
       try {
         const data = await getWikiArticles();
         setWikiData(data);
-        logGameStart();
         setScreen(settings.isDrafting ? 'game|drafting' : 'game|round');
       } finally {
         setIsLoading(false);
@@ -49,7 +35,6 @@ const Settings = () => {
       return;
     }
 
-    logGameStart();
     e.preventDefault();
     setScreen(settings.isDrafting ? 'game|drafting' : 'game|round');
   }

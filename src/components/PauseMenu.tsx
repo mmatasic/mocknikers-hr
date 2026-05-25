@@ -5,7 +5,6 @@ import { resetLocalStorage } from '../lib/helpers';
 import { useConextIfPopulated } from '../lib/hooks';
 import Button from './Button';
 import { StyledPauseMenu } from './styles/PauseMenu.styled';
-import ReactGA from 'react-ga4';
 
 type Proptypes = {
   paused: boolean;
@@ -21,7 +20,6 @@ const PauseMenu = ({ paused, color, setPaused }: Proptypes) => {
     setPaused(!paused);
   };
   const endGame = () => {
-    ReactGA.event('end_game');
     setSettings(defaultSettings);
     setScreen(defaultScreen);
     resetLocalStorage();

@@ -11,8 +11,6 @@ import GlobalStyles from "./styles/global";
 import { StyledBackgroundContiner } from "./components/styles/BackgroundContiner.styled";
 import { StyledBackgroundImage } from "./components/styles/BackgroundImage.styled";
 import { ReactComponent as BackgroudImage } from "./images/monikers_characters.svg";
-import ReactGA from "react-ga4";
-
 const LinkButton = styled.a`
   position: absolute;
   top: ${({ theme }) => `${theme.gridPoints * 2}px`};
@@ -40,16 +38,6 @@ function App() {
   const [settings, setSettings] = useLocalStorage(defaultSettings, "settings");
   const [screen, setScreen] = useLocalStorage(defaultScreen, "screen");
 
-  ReactGA.initialize("XXX", {
-    gaOptions: {
-      debug_mode:
-        window.location.hostname === "mmatasic.duckdns.org" ? false : true,
-    },
-    gtagOptions: {
-      debug_mode:
-        window.location.hostname === "mmatasic.duckdns.org" ? false : true,
-    },
-  });
   const CroatiaFlag = () => (
     <svg
       width="28"
@@ -98,7 +86,6 @@ function App() {
   );
 
   function newGame(e: React.MouseEvent<HTMLButtonElement>) {
-    ReactGA.event("initialize_game");
     e.preventDefault();
     setScreen("settings");
   }

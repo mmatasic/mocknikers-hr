@@ -5,7 +5,6 @@ import GameContext from '../contexts/gameContext';
 import { StyledBackgroundContiner } from './styles/BackgroundContiner.styled';
 import Face from './Face';
 import { StyledInterstitialContainer } from './styles/Container-Interstitial.styled';
-import ReactGA from 'react-ga4';
 
 type Proptypes = {
   round: number;
@@ -34,9 +33,6 @@ const Round = ({ round, cards, setRemainingCards, setRemainingTime, color }: Pro
   }
 
   function startRound(e: React.MouseEvent<HTMLButtonElement>) {
-    ReactGA.event('level_start', {
-      level_name: `round ${round}`,
-    });
     e.preventDefault();
     setRemainingCards(shuffleCards(cards));
     setScreen('game|switch-player');

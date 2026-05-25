@@ -14,7 +14,6 @@ import { StyledBackgroundContiner } from './styles/BackgroundContiner.styled';
 import { StyledContainer } from './styles/Container.styled';
 import Header from './Header';
 import { StyledCardContainer } from './styles/CardContainer.styled';
-import ReactGA from 'react-ga4';
 import DraftingRound from './DraftingRound';
 
 type ActionType = "next" | "skip";
@@ -137,15 +136,6 @@ const Game = () => {
     if (remainingCards.length > 1) {
       nextCard(remainingCards, setRemainingCards);
     } else {
-      ReactGA.event("turn_end", {
-        level_name: `round ${round}`,
-      });
-      ReactGA.event("level_end", {
-        level_name: `round ${round}`,
-      });
-      if (round === 3) {
-        ReactGA.event("game_complete");
-      }
       setRemainingCards(null);
       setRemainingTime(settings.timer);
       setfirstPlayerInRound(true);
@@ -161,7 +151,6 @@ const Game = () => {
     const skipAudio = new window.Audio(getSoundUrl("skip.mp3"));
     skipAudio.currentTime = 0;
     skipAudio.play();
-    ReactGA.event("skipped");
     skipCard(remainingCards, setRemainingCards);
   };
 
