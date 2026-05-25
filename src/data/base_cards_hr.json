@@ -4192,5 +4192,173 @@
     "description": "Žaljenje za prošlim greškama ili izgubljenim prilikama koje se više ne mogu vratiti niti popraviti. Energija koja bi se mogla bolje iskoristiti za rješavanje sadašnjih problema umjesto vraćanja na ono što je gotovo.",
     "category": "APSTRAKTNI IZRAZ",
     "points": 4
+  },
+  {
+    "title": "Pablo Picasso",
+    "description": "Španjolski slikar 20. stoljeća, suosnivač kubizma, čije su deformirane figure i razbijene perspektive zauvijek promijenile zapadnu umjetnost. Najpoznatija mu je 'Guernica', golema crno-bijela slika ratnog užasa.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Charlie Chaplin",
+    "description": "Britanski filmski genij iz doba nijemog ekrana, prepoznatljiv po malim brkovima, polucilindru, štapu i prevelikim cipelama. Svojim trapavim hodom i nostalgijom nasmijao je i rasplakao cijela kina diljem svijeta.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Beatles",
+    "description": "Liverpoolski rock kvartet šezdesetih čije su pjesme i frizure preokrenuli pop-glazbu i obrijali ledine za sve koji su došli poslije. Prešli su pločnikom Abbey Roada u onoj fotografiji koju cijeli svijet pokušava ponoviti.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Tinder",
+    "description": "Aplikacija za upoznavanje partnera s prepoznatljivim plamičkom u ikoni gdje se odluka donosi povlačenjem prsta lijevo ili desno. Glavni alat romantike novog tisućljeća, češće izvor frustracije nego ljubavi.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Sumo",
+    "description": "Tradicionalna japanska borilačka disciplina u kojoj se dvojica golemih boraca u nabranim donjim pojasevima sudaraju u krugu od slame, pokušavajući protivnika izbaciti van ili oboriti na pod. Pravila su jednostavna, ali ritual oko meča je svet.",
+    "category": "SPORT",
+    "points": 2
+  },
+  {
+    "title": "Hermione Granger",
+    "description": "Pametna kovrčava prijateljica čarobnjaka s ožiljkom u obliku munje, najbolja učenica škole magije i autor odgovora kojeg svi prepisuju. Bez nje bi njezin slavniji prijatelj jedva preživio prvu godinu.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Tempura",
+    "description": "Japanski način pripreme povrća i morskih plodova umočenih u laganu tijesto-pjenu i pržene u dubokom ulju do svijetlo zlatne hrskavosti. Posluživa se uz blagi umak od soje i naribane rotkve.",
+    "category": "JELO",
+    "points": 2
+  },
+  {
+    "title": "Iron Man",
+    "description": "Američki milijarder-genij u crveno-zlatnom mehaničkom oklopu napajanom plavim reaktorom ugrađenim u prsa. Robert Downey Jr. ga je gotovo dva desetljeća utjelovio u Marvelovim filmovima i izgovorio konačno 'ja sam'.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Mikser",
+    "description": "Kuhinjski uređaj s rotirajućim metalnim nastavcima koji tuče jaja, miješa tijesto i radi šlag uz karakterističan zujav zvuk. Profesionalna verzija na stalku stoji na pultu kao kuhinjski trofej.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Frizbi",
+    "description": "Tanak plastični disk koji se baca između dvoje ili više ljudi, leti rotacijom zraka i izaziva pse da skoče za njim. Standardni rekvizit ljetnih piknika i plaža uz nešto manje veliki balon.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Karma",
+    "description": "Istočnjački koncept moralne ravnoteže prema kojem se sva djela, dobra ili loša, vraćaju počinitelju u ovom ili budućim životima. Popularna izjava nakon što susjeda koji ti je oteo parkirno mjesto vidiš kako se zaključa u vlastitom autu.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Renesansa",
+    "description": "Razdoblje kulturnog i umjetničkog buđenja koje je iz Italije zahvatilo Europu od 14. do 17. stoljeća, vraćajući antičke ideale i podižući središte misli s neba na čovjeka. Iz nje su izrasli Leonardo, Michelangelo i Galileo.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Tabula rasa",
+    "description": "Filozofski izraz na latinskom koji opisuje um djeteta pri rođenju kao prazan papir bez ikakvih unaprijed upisanih spoznaja. Koristi se i u svakodnevnom govoru kad netko želi sve potpuno krenuti ispočetka.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Deus ex machina",
+    "description": "Dramaturški trik u kojem se nerješivo zapetljana radnja iznenada razriješi neočekivanom intervencijom izvana, kao da je netko iz publike uskočio s rješenjem. Naziv potječe iz antičke kazališne mehanike kada se božanstvo doslovce spuštalo s krova pomoću užadi i kotura.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Egzistencijalizam",
+    "description": "Filozofski pravac 20. stoljeća koji čovjeka stavlja pred apsurd vlastite slobode i odgovornosti u svijetu bez urođenog smisla. Sartre, Camus i Heidegger glavni su mu glasovi i izvor velikih studentskih kriza.",
+    "category": "POJAM",
+    "points": 4
+  },
+  {
+    "title": "Globalno zagrijavanje",
+    "description": "Postupno porastanje prosječne temperature Zemljine atmosfere i oceana uzrokovano ljudskim ispuštanjem stakleničkih plinova. Posljedice su topljenje polova, ekstremno vrijeme i sve češći ljetni vrhunci od četrdeset stupnjeva.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Sjedjeti na dvije stolice",
+    "description": "Pokušaj da se istovremeno zadrže obje strane suprotstavljenih opcija, najčešće iz straha ili koristoljublja. Klasično političko ponašanje koje rijetko završi dobro za onoga koji ga primjenjuje.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Imati dvije lijeve noge",
+    "description": "Ozbiljna nesposobnost za koordinaciju u plesu, sportu ili općenito bilo kojem ritmičkom kretanju. Vlasnik te osobine na svadbama uglavnom drži zid ili se skriva u toaletu kada zasvira sporiji blok.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Spavati kao klada",
+    "description": "Duboki san iz kojeg se osoba ne budi ni na alarm, ni na potres, ni na partnerovo hrkanje. Najčešće nastupa nakon dugog dana fizičkog rada ili tri točena piva.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Ulijevati ulje na vatru",
+    "description": "Pogoršavanje već napete situacije dodatnim provokacijama ili komentarima koji raspaljuju strasti. Klasična tehnika svake šefice koja te zove na razgovor 'samo da nešto razjasnimo'.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Yin i Yang",
+    "description": "Drevni kineski filozofski princip kozmičke dualnosti, predstavljen kružnim simbolom podijeljenim u dvije polovice koje se prožimaju. Označava da svjetlost nosi mrlju tame, a tama mrlju svjetlosti.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Carpe diem",
+    "description": "Latinska krilatica iz Horacijeve ode koja poziva da se trenutak iskoristi do kraja jer sutra nikad nije zajamčeno. Postala je geslo svakog studentskog izlaska i tetovaže na zglavku.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Memento mori",
+    "description": "Filozofska latinska poslovica koja nas podsjeća na neizbježnost vlastite smrti i prolaznost svih ovozemaljskih stvari. Srednjovjekovni monasi su s tom mišlju u glavi gledali u lubanje na svom stolu.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Plakati krokodilske suze",
+    "description": "Lažni izrazi tuge ili kajanja namijenjeni da izazovu sažaljenje ili izbjegnu kaznu. Profesionalna sposobnost djece od pet godina, političara i partnera koji su upravo bili uhvaćeni u prevari.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Crna ovca",
+    "description": "Član obitelji ili grupe koji svojim ponašanjem, stavovima ili životnim izborima upadljivo odudara od ostalih, najčešće na njihovo razočaranje. Često je istovremeno i najzanimljivija osoba na obiteljskom okupljanju.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Začarani krug",
+    "description": "Bezizlazna situacija u kojoj jedan problem proizvodi drugi, a taj drugi vraća prvi, bez ikakvog napretka. Klasičan primjer: nemaš iskustva jer te ne žele zaposliti, a ne žele te zaposliti jer nemaš iskustva.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 3
+  },
+  {
+    "title": "Posljednja kap",
+    "description": "Sitnica koja nakon dugog niza tolerirajućih dosadnih ili nepravednih situacija konačno prelije čašu strpljenja. Često bezopasna izvana, ali kod ošamućene osobe izaziva potpunu eksploziju.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Slijepa ulica",
+    "description": "Bezizlazni pravac istraživanja, razmišljanja ili odnosa iz kojeg jednostavno nema napretka. Doslovno se odnosi na cestu koja završava zidom, a metaforički na svaku rastavu koja se vukla godinama bez razloga.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
   }
 ]
