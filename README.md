@@ -1,7 +1,9 @@
 <br />
 Fork of https://github.com/15huangtimothy/mocknikers - adds Croatian cards, sounds and few tweaks.
 
-Live version: <a href="https://mmatasic.duckdns.org/mocknikers/" target="_blank">https://mmatasic.duckdns.org/mocknikers/</a>
+Live versions:
+- <a href="https://mmatasic.github.io/mocknikers-hr/" target="_blank">https://mmatasic.github.io/mocknikers-hr/</a> (GitHub Pages)
+- <a href="https://mmatasic.duckdns.org/mocknikers/" target="_blank">https://mmatasic.duckdns.org/mocknikers/</a>
 
 # Mocknikers
 
@@ -21,12 +23,13 @@ _Visit <a href="https://boardgamegeek.com/boardgame/156546/monikers" target="_bl
 
 ### Game Modes
 
-You can play the game in three different modes:
+You can play the game in four different modes:
 
 1. **Base Game**: Play with cards from the official [Monikers Print-and-Play](https://s3.amazonaws.com/www.monikersgame.com/Press+kit/Monikers+PnP.pdf) set ([Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en))
-2. **Generated Cards**: Cards are generated from Wikipedia's daily top articles, keeping the content fresh and relevant to current events.
-3. **Written Cards**: Create your own custom deck by writing your own cards, perfect for themed games or inside jokes.
-4. **Croatian Cards**: Generated using AI
+2. **Croatian Cards** (default): AI-generated Croatian deck of 580+ cards spanning places, food, idioms, historical figures, pop culture and more (`src/data/base_cards_hr.json`).
+3. **Generated Cards**: Cards are generated from Wikipedia's daily top articles, keeping the content fresh and relevant to current events.
+4. **Written Cards**: Create your own custom deck by writing your own cards, perfect for themed games or inside jokes.
+
 ### Card Selection
 
 There are two ways to build your deck:
@@ -46,7 +49,15 @@ Cards are slightly different than in the physical game:
 
 This site is built on <a href="https://react.dev" target="_blank">React</a>. To install and run the app locally, in a terminal window run
 
-    git clone https://github.com/mmatasic/mocknikers
+    git clone https://github.com/mmatasic/mocknikers-hr
     nvm install
     npm install
     npm start
+
+## Deployment
+
+The app is deployed to GitHub Pages from the `gh-pages` branch using the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package:
+
+    npm run deploy
+
+This runs `npm run build` (via the `predeploy` hook) and pushes the resulting `build/` directory to the `gh-pages` branch. GitHub Pages serves it at the URL configured in the `homepage` field of `package.json`.

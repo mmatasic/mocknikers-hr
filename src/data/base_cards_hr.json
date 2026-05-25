@@ -3496,6 +3496,126 @@
     "description": "Drevna metoda proricanja budućnosti u kojoj se zrna prosipaju po stolu, a vidovita teta na temelju njihovog rasporeda otkriva ljubavnice, sudske parnice i tajne porodične afere. Plaća se gotovinom, a rezultati nisu vraćivi.",
     "category": "APSTRAKTNI IZRAZ",
     "points": 4
+  },
+  {
+    "title": "Klapa",
+    "description": "Dalmatinska tradicija višeglasnog muškog pjevanja a cappella, najčešće u uskim kamenim kalama ili konobama uz more. Pjesme su redom o ljubavi, brodovima i nostalgiji, a UNESCO ih je proglasio nematerijalnom baštinom čovječanstva.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Dioklecijan",
+    "description": "Rimski car podrijetlom iz Salone koji je sagradio raskošnu palaču na obali, a potom prvi u povijesti dobrovoljno abdicirao da bi mirno uzgajao kupus. Njegov mauzolej danas je središnja splitska katedrala.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Pula",
+    "description": "Najveći istarski grad smješten oko antičkog amfiteatra u kojem se ljeti održava najstariji nacionalni filmski festival. Njegovo brodogradilište Uljanik desetljećima je bilo simbol jadranske industrije sve dok nije propalo.",
+    "category": "MJESTO",
+    "points": 1
+  },
+  {
+    "title": "Čvarci",
+    "description": "Hrskavi zlatno-smeđi komadići svinjske kože i mesa preostali nakon topljenja sala, najbolji uz krišku crnog kruha i čašicu žute rakije. Slavonski deda ih za kolinja smatra jedinom istinskom mezom.",
+    "category": "JELO",
+    "points": 2
+  },
+  {
+    "title": "Hodanje po jajima",
+    "description": "Pretjerano oprezno ponašanje u blizini nekoga tko je razdražljiv ili tek u svađi, kada svaka pogrešno odabrana riječ može izazvati eksploziju. Svaki muž s nervoznom ženom dobro poznaje taj osjećaj.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Hvar",
+    "description": "Otok s najviše sunčanih sati na Jadranu, prepoznatljiv po ljubičastim poljima mirisnog cvijeća iz kojeg se peče eterično ulje. Glavni mu je grad raskošan kamenim trgom i ljetnom partijskom scenom koja privlači jahte iz cijelog svijeta.",
+    "category": "MJESTO",
+    "points": 1
+  },
+  {
+    "title": "Maestral",
+    "description": "Ugodan ljetni vjetar koji popodne puše s mora prema kopnu i donosi olakšanje nakon jutarnje pripeke. Najavljuje stabilno vrijeme i obožavaju ga jedriličari po cijelom Jadranu.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Maradona",
+    "description": "Argentinski nogometni genij niskog rasta koji je 1986. rukom zabio gol Englezima, a potom protrčao kroz pola njihove obrane i postigao gol stoljeća. U Napulju je bio bog, a život mu je bio jednako turbulentan kao i talent.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "TikTok",
+    "description": "Kineska aplikacija koja je zarazila planet vertikalnim kratkim videima i plesnim koreografijama. Algoritam je tako moćan da nakon pet minuta zna više o tebi nego tvoja vlastita majka.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Bermet",
+    "description": "Crveno desertno vino aromatizirano sa sedamnaest različitih trava, voća i začina, čija se receptura tajno čuva u obiteljima samoborskog kraja. Pije se uz kremšnitu ili kao digestiv nakon teškog ručka.",
+    "category": "PIĆE",
+    "points": 3
+  },
+  {
+    "title": "Krka",
+    "description": "Nacionalni park sjeverne Dalmacije s nizom sedrenih kaskada koje tvore stepenice slapova različitih visina. Na otočiću usred zelenog jezera nalazi se franjevački samostan, a kupanje pod najvećim slapom nedavno je zabranjeno.",
+    "category": "MJESTO",
+    "points": 2
+  },
+  {
+    "title": "Češnjak",
+    "description": "Lukovičasta biljka oštrog mirisa čiji se bijeli režnjevi koriste u gotovo svakom ozbiljnom mediteranskom jelu. Vjeruje se da tjera vampire i prehladu, ali i ljude oko vas idući dan.",
+    "category": "JELO",
+    "points": 1
+  },
+  {
+    "title": "Antun Gustav Matoš",
+    "description": "Hrvatski književnik s početka 20. stoljeća koji je veći dio života proveo lutajući Beogradom, Ženevom i Parizom. Njegova pjesma o noći iznad Strossmayerovog šetališta naučila je generacije srednjoškolaca što znači modernizam.",
+    "category": "POVIJESNA OSOBA",
+    "points": 3
+  },
+  {
+    "title": "Mumija",
+    "description": "Tijelo egipatskog pokojnika sačuvano kroz tisućljeća u zavojima i smolama, položeno u oslikani sarkofag s nadom u vječni život. U holivudskim filmovima neizostavno ustaje i traži povrat svoje izgubljene ljubavi.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Wi-Fi",
+    "description": "Bežična mreža koja signalom iz crne kutije s antenama omogućuje internet po cijelom stanu. Lozinka se obvezno traži pri svakom posjetu prijateljima, odmah nakon pozdrava.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Pozdrav suncu",
+    "description": "Velika kružna svjetlosna instalacija od staklenih ploča na zadarskoj rivi koja danju upija energiju, a noću zabljesne u plesu raznobojnih svjetala. Djelo arhitekta Bašića brzo je postalo simbol modernog uređenja obalnog grada.",
+    "category": "STVAR",
+    "points": 3
+  },
+  {
+    "title": "Tartufi",
+    "description": "Podzemna gljiva oštrog mirisa i visoke cijene koju u istarskim šumama otkrivaju trenirani psi. Bijelu sortu chefovi tanko struže preko paste, a kilogramski gomolj je na aukcijama dostigao cijenu malog automobila.",
+    "category": "JELO",
+    "points": 2
+  },
+  {
+    "title": "Mozart",
+    "description": "Austrijski genijalni skladatelj koji je već s pet godina komponirao, a Beč zaduživao operama, simfonijama i 'Maloj noćnoj muzici'. Umro je rano i siromašan, pokopan u zajedničkoj grobnici, a danas mu čokoladne kuglice s likom prodaju u svakoj suvenirnici.",
+    "category": "POVIJESNA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Selfie",
+    "description": "Vlastiti fotoportret snimljen ispruženom rukom ili štapom uz iskrivljeni izraz lica i obavezni utisnuti filter. Glavna valuta svakog izleta i ljetovanja u eri društvenih mreža.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Mlatiti praznu slamu",
+    "description": "Bavljenje potpuno besmislenim ili uzaludnim poslom u kojem se ulaže puno truda bez ikakvog rezultata. Često se odnosi i na duge razgovore koji ne vode nigdje.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
   }
 
 ]
