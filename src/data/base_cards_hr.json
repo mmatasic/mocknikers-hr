@@ -4360,5 +4360,167 @@
     "description": "Bezizlazni pravac istraživanja, razmišljanja ili odnosa iz kojeg jednostavno nema napretka. Doslovno se odnosi na cestu koja završava zidom, a metaforički na svaku rastavu koja se vukla godinama bez razloga.",
     "category": "APSTRAKTNI IZRAZ",
     "points": 4
+  },
+  {
+    "title": "Steve Jobs",
+    "description": "Američki tehno-vizionar i suosnivač jabučarske tvrtke, prepoznatljiv po crnom dolčevitu, plavim trapericama i sandalama. Predstavljanjem prvog pametnog telefona 2007. potpuno je promijenio način na koji svijet komunicira.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Salvador Dali",
+    "description": "Španjolski nadrealistički slikar s ekstravagantno uvijenim brkovima koji je sanjao otopljene satove razasute po krajoliku poput umornog sira. Voljen je koliko zbog ekscentričnosti, toliko i zbog talenta.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Madonna",
+    "description": "Američka pop kraljica osamdesetih i devedesetih, prepoznatljiva po čeličnim grudnjacima iz 'Vogue' faze i konstantnom mijenjanju imidža. Naslijedila je više glazbenih trendova nego što ih je imala muževa.",
+    "category": "POZNATA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Vulkan",
+    "description": "Geološka uzvisina kroz koju iz Zemljine utrobe povremeno prokulja zažarena tekuća stijena, popraćena oblacima pepela i grmljavinom. Erupcija jednoga od najpoznatijih u Italiji prekrila je Pompeje pepelom u prvom stoljeću.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Tulipan",
+    "description": "Proljetni cvijet u obliku male šalice na uspravnoj stabljici, dolazi u svim bojama od crvene do crne. Nizozemska je u 17. stoljeću u tržišnoj groznici plaćala za njegove lukovice više nego za kuće.",
+    "category": "STVAR",
+    "points": 2
+  },
+  {
+    "title": "Ruža",
+    "description": "Trnoviti cvijet bogatih latica s neprolaznim mirisom, simbol ljubavi i strasti od antike do danas. Klasično se daruje na Valentinovo u crvenoj boji i dvanaest primjeraka, iako jedan često zaboravi otkinuti trnove.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Bumerang efekt",
+    "description": "Pojava kada se neka akcija ili poruka vrati pošiljatelju s upravo suprotnim učinkom od željenog. Najčešće se događa pri pokušaju cenzure tračeva ili poduke djeci o zabranjenim igricama.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Inflacija",
+    "description": "Ekonomska pojava postupnog rasta cijena dobara i usluga, koja istovremeno smanjuje vrijednost novca. Generacija naših roditelja pamti hiperinflaciju ranih devedesetih kad se za kruh plaćalo u milijardama dinara.",
+    "category": "POJAM",
+    "points": 3
+  },
+  {
+    "title": "Slon u trgovini porculana",
+    "description": "Nespretna osoba koja u osjetljivoj ili krhkoj situaciji izaziva najveću moguću štetu svojim grubim postupcima. Klasično opisuje tetkovo objašnjavanje politike na obiteljskom ručku za Uskrs.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
+  },
+  {
+    "title": "Stephen Hawking",
+    "description": "Britanski teorijski fizičar koji je s nepokretnim tijelom i robotskim sintetičkim glasom otkrivao tajne crnih rupa i podrijetla svemira. Knjiga 'Kratka povijest vremena' postala je najprodavanija znanstvena publikacija svih vremena.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Marilyn Monroe",
+    "description": "Američka filmska zvijezda pedesetih s platinasto plavom kosom i izrazito ženstvenom figurom, najpoznatija po bijeloj haljini koju joj je vjetar podigao iznad metroaške ventilacije. Tragično je umrla u dobi od 36 godina nakon kratke afere s predsjednikom.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Elon Musk",
+    "description": "Južnoafričko-američki tehno-milijarder koji vodi kompanije za elektromobile, svemirske rakete i bivšu plavu društvenu mrežu koju je preimenovao u jedno slovo. Misli da će čovječanstvo preživjeti tako što će se preseliti na Mars.",
+    "category": "POZNATA OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Rocky Balboa",
+    "description": "Američki boksač iz Philadelphije, sin talijanskih useljenika, koji se u Stalloneovoj kultnoj franšizi probija iz beznađa kvarta do svjetskih prvenstava. Posljednja slika obično ga prikazuje na vrhu stuba muzeja s rukama u zraku.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Pustinja",
+    "description": "Suho područje s gotovo nikakvim oborinama gdje pijesak prevladava nad rastinjem, a dan i noć izmjenjuju ekstremne temperature. Najveće su u sjevernoj Africi i Aziji, a kreću se i prema Europi kako klima divlja.",
+    "category": "MJESTO",
+    "points": 1
+  },
+  {
+    "title": "Galeb",
+    "description": "Bjelo-siva morska ptica oštrog kljuna i prodorne vriske koja kruži nad jadranskim plažama u potrazi za nečuvanim sendvičem. Inteligentan je toliko da otvori vrećicu čipsa dok turist trepne.",
+    "category": "ŽIVOTINJA",
+    "points": 1
+  },
+  {
+    "title": "Kit",
+    "description": "Najveći sisavac na Zemlji koji čitav život provodi u oceanima i diše kroz otvor na vrhu glave. Plavi može težiti i dvjesto tona, a u Jadranu se povremeno izgubi po koji pa ga turisti snime za uspomenu.",
+    "category": "ŽIVOTINJA",
+    "points": 1
+  },
+  {
+    "title": "Lift",
+    "description": "Vertikalni prijevoznik koji u kabini između katova podiže i spušta ljude u višekatnicama. Stranac s tobom unutra obavezno gleda u pod ili u prikaz brojeva na zaslonu da izbjegne nelagodu.",
+    "category": "STVAR",
+    "points": 1
+  },
+  {
+    "title": "Frida Kahlo",
+    "description": "Meksička slikarica prepoznatljiva po spojenim obrvama, šarenom cvjetnom oglavlju i autoportretima koji prikazuju njezinu fizičku i emocionalnu bol nakon prometne nesreće. Bila je u burnom braku s muralistom Diegom Riverom.",
+    "category": "POVIJESNA OSOBA",
+    "points": 2
+  },
+  {
+    "title": "Walter White",
+    "description": "Profesor kemije iz Albuquerquea koji u kultnoj seriji 'Breaking Bad' nakon dijagnoze raka pluća počinje proizvoditi plavkasti metamfetamin kako bi obitelji osigurao financijsku sigurnost. Bryan Cranston je u toj ulozi krenuo od jadnog ćelavca do beskompromisnog narko-bosa.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Mr. Bean",
+    "description": "Britanski komični lik u smeđem sakou koji uz minimalan dijalog rješava svakodnevne probleme na potpuno apsurdne načine. Vozi maleni žuti Mini i nosi pliš-medvjedića kao najboljeg prijatelja.",
+    "category": "LIK",
+    "points": 1
+  },
+  {
+    "title": "Daenerys Targaryen",
+    "description": "Mlada kraljica srebrne kose iz fantasy serije o sukobu za prijestolje, izlegla je tri zmaja i osvojila tri velika kontinenta. Završila je sa Sjevernjakom u tragično skraćenoj posljednjoj sezoni.",
+    "category": "LIK",
+    "points": 2
+  },
+  {
+    "title": "Olimpijske igre",
+    "description": "Najveći sportski događaj koji se svake četiri godine održava u različitom svjetskom gradu, okuplja sportaše iz gotovo svih zemalja i dijeli zlatne, srebrne i brončane medalje. Tradicija potječe iz antičke Grčke, gdje su se atleti natjecali nagi.",
+    "category": "POJAM",
+    "points": 1
+  },
+  {
+    "title": "Konobar",
+    "description": "Osoba u crnoj košulji i pregači koja u restoranu prima narudžbe, donosi jela i pića te diskretno čeka napojnicu na kraju. Najbolji se sjećaju što si pio prošli put, najgori se prave da te ne vide.",
+    "category": "OSOBA",
+    "points": 1
+  },
+  {
+    "title": "Mango",
+    "description": "Egzotično tropsko voće žuto-narančaste mesnate sredine s velikom plosnatom košticom u središtu. Slatkog je okusa s blagom kiselošću, popularan u smutijima i indijskoj kuhinji.",
+    "category": "JELO",
+    "points": 1
+  },
+  {
+    "title": "Kornjača",
+    "description": "Spori reptil s tvrdim koštanim oklopom u koji uvuče glavu i noge pri opasnosti. Neke kopnene vrste žive i preko stotinu godina, a morske putuju tisućama kilometara kako bi snijele jaja.",
+    "category": "ŽIVOTINJA",
+    "points": 1
+  },
+  {
+    "title": "Mamurluk",
+    "description": "Bolno tjelesno stanje sljedeće jutro nakon pretjeranog uživanja u alkoholu, karakterizirano glavoboljom, mučninom i obećanjima da se to više nikad neće dogoditi. Lijek je obavezna juha ili još malo istog pića.",
+    "category": "POJAM",
+    "points": 2
+  },
+  {
+    "title": "Vagati riječi",
+    "description": "Vrlo oprezno biranje izričaja u razgovoru kako bi se izbjeglo izazivanje uvrede, sukoba ili pravnih posljedica. Klasično ponašanje pri razgovoru sa svekrvom, šefom ili novinarem.",
+    "category": "APSTRAKTNI IZRAZ",
+    "points": 4
   }
 ]
